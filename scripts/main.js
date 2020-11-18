@@ -1,3 +1,5 @@
+require("hell/no");
+
 var buffer, shader, rabbit;
 
 function beginDraw() {
