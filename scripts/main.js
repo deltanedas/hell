@@ -11,7 +11,7 @@ function endDraw() {
 	buffer.end();
 
 	shader.bind();
-	shader.setUniformf("u_time", Time.globalTime() / 100.0);
+	shader.setUniformf("u_time", Time.globalTime / 100.0);
 
 	Draw.blit(buffer, shader);
 }
